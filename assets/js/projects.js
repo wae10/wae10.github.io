@@ -33,7 +33,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/wae10/pro-tip-generator',
             title: 'Pro-Tip Generator',
             demo: false,
-            technologies: ['Python', 'Unix Shell Script','docx Package'],
+            technologies: ['Python', 'Unix Shell','docx Package'],
             description: "Automation tool that creates a separate Word Document containing only the most important information (aka 'pro tips') extracted from an existing file of notes.",
             // categories: ['featured', 'native']
         },
@@ -157,51 +157,54 @@ let render_projects = (slug) => {
     ]
 
     let projects = [];
-    if(slug == 'all') {
+    if(slug == 'featured') {
         projects = projects_obj.map(project_mapper);
+        render_projects(slug);
     } 
-    else {
-        projects = projects_obj.filter(project => project.categories.includes(slug)).map(project_mapper);
-    }
-    projects_area.hide().html(projects).fadeIn();
-}
+//     else {
+//         projects = projects_obj.filter(project => project.categories.includes(slug)).map(project_mapper);
+//     }
+//     projects_area.hide().html(projects).fadeIn();
+// }
 
-let project_mapper = project => {
-    return `
-        <div class="wrapper">
+// let project_mapper = project => {
+//     return `
+//         <div class="wrapper">
                 
-            <div class="card radius shadowDepth1">
+//             <div class="card radius shadowDepth1">
 
-                ${project.image ? 
-                    `<div class="card__image border-tlr-radius">
-                        <a href="${project.link}">
-                            <img src="${project.image}" alt="image" id="project-image" class="border-tlr-radius">
-                        </a>
-                    </div>`           
-                : ''}
+//                 ${project.image ? 
+//                     `<div class="card__image border-tlr-radius">
+//                         <a href="${project.link}">
+//                             <img src="${project.image}" alt="image" id="project-image" class="border-tlr-radius">
+//                         </a>
+//                     </div>`           
+//                 : ''}
 
         
-                <div class="card__content card__padding">
+//                 <div class="card__content card__padding">
         
-                    <article class="card__article">
-                        <h2><a href="${project.link}">${project.title}</a></h2>
+//                     <article class="card__article">
+//                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">Demo</a>` : ''}</p>
-                    </article>
+//                         <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">Demo</a>` : ''}</p>
+//                     </article>
 
                                 
-                    <div class="card__meta">
-                        ${project.technologies.map(tech =>
-                            `<span class="project-technology paragraph-text-normal">${tech}</span>`
-                        ).join('')}
-                    </div>
+//                     <div class="card__meta">
+//                         ${project.technologies.map(tech =>
+//                             `<span class="project-technology paragraph-text-normal">${tech}</span>`
+//                         ).join('')}
+//                     </div>
 
-                </div>
-            </div>
-        </div>
-    `
+//                 </div>
+//             </div>
+//         </div>
+//     `
 }
 
-let selected = (slug) => {
-    render_projects(slug);
-}
+
+
+// let selected = (slug) => {
+//     render_projects(slug);
+// }
