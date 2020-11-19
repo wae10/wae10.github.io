@@ -16,8 +16,8 @@ let render_projects = (slug) => {
             title: 'Golf Handicap Calculator',
             demo: 'https://golf-handicap-plf14.herokuapp.com/',
             technologies: ['Flask', 'Google Sheets API', 'Python'],
-            description: "Web-based application that allows users to post golf scores to a database and receive an updated USGA Handicap Index."
-            // categories: ['featured', 'webdev']
+            description: "Web-based application that allows users to post golf scores to a database and receive an updated USGA Handicap Index.",
+            categories: ['featured']
         },
         {
             image: 'assets/images/recipe.png',
@@ -25,8 +25,8 @@ let render_projects = (slug) => {
             title: 'Recipe Master',
             demo: 'https://myrecipe-master.herokuapp.com/',
             technologies: ['Flask', 'Spoonacular API', 'Python'],
-            description: "Web-based application with clean interface that allows users the ability to search from over 365,000 recipes."
-            // categories: ['featured', 'webdev']
+            description: "Web-based application with clean interface that allows users the ability to search from over 365,000 recipes.",
+            categories: ['featured']
         },
         {
             image: 'assets/images/protip.png',
@@ -35,7 +35,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Python', 'Unix Shell','docx Package'],
             description: "Automation tool that creates a separate Word Document containing only the most important information (aka 'pro tips') extracted from an existing file of notes.",
-            // categories: ['featured', 'native']
+            categories: ['featured']
         },
         // {
         //     image: 'assets/images/mpw.jpg',
