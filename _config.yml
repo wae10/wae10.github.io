@@ -1,0 +1,21 @@
+title: Abhishek Nagekar
+description: Web & Security Engineer
+site_title: '@abhn - Abhishek Nagekar'
+
+# Build settings
+markdown: kramdown
+exclude: [vendor/ruby]
+
+# Personalization
+github_username: wae10
+blog_url: 
+email: 
+keybase_username: 
+twitter_username: 
+reddit_username: 
+
+# absolute or relative
+profile_picture: 
+
+# Google Analytics ID
+google_analytics: 
