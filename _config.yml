@@ -8,11 +8,11 @@ exclude: [vendor/ruby]
 
 # Personalization
 github_username: wae10
-blog_url: 
-email: 
-keybase_username: 
-twitter_username: 
-reddit_username: 
+# blog_url: 
+email: wae10@georgetown.edu
+# keybase_username: 
+# twitter_username: 
+# reddit_username: 
 
 # absolute or relative
 profile_picture: 
