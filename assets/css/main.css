@@ -245,6 +245,10 @@ img {
   margin-bottom: 15px;
 }
 
+li{
+  margin-bottom: 5px;
+}
+
 
 .pt-sans-font {
   font-family: 'PT Sans', sans-serif;
