@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/wae10/Golf-Handicap',
             title: 'Golf Handicap Calculator',
             demo: 'https://golf-handicap-plf14.herokuapp.com/',
-            technologies: ['Flask', 'Google Sheets API', 'Python'],
+            technologies: ['Flask', 'Sheets API', 'Python'],
             description: "Web-based application that allows users to post golf scores to a database and receive an updated USGA Handicap Index.",
             categories: ['featured']
         },
@@ -33,7 +33,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/wae10/pro-tip-generator',
             title: 'Pro-Tip Generator',
             demo: false,
-            technologies: ['Python', 'Unix Shell','docx Package'],
+            technologies: ['Python', 'Unix Shell'],
             description: "Automation tool that creates a separate Word Document containing only the most important information (aka 'pro tips') extracted from an existing file of notes.",
             categories: ['featured']
         },
