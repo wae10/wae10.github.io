@@ -12,7 +12,7 @@ img {
 
 .head {
 
-  color: #C6DEFF;
+  color: #fff;
   min-height: 100vh;
 
   display: -webkit-box;
@@ -214,15 +214,15 @@ img {
 }
 
 .section-wrapper:nth-child(odd) .section-heading {
-  color: #C6DEFF;
+  color: #fff;
 }
 
 .section-wrapper:nth-child(odd) .skills-subsection {
-  color:#C6DEFF;
+  color:#fff;
 }
 
 .section-wrapper:nth-child(odd) .paragraph-text {
-  color: #C6DEFF;
+  color: #fff;
 }
 
 .paragraph-text {
@@ -310,7 +310,7 @@ li{
 .technologies-grid-item {
   width: 96.6666px;
   height: 96.6666px;
-  background-color: #C6DEFF;
+  background-color: #fff;
 }
 
 .project-card {
