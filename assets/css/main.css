@@ -241,9 +241,9 @@ img {
   text-align: center;
 }
 
-/* .paragraph-text-small {
-
-} */
+.spacing {
+  margin-bottom: 5px;
+}
 
 
 .pt-sans-font {
