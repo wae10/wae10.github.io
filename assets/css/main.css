@@ -461,7 +461,7 @@ a {
   grid-gap: 5px;
   grid-row-gap: 10px;
   width: 100%;
-  text-align: center;
+  align-self: center;
 }
 
 .project-technology {
