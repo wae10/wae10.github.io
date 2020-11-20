@@ -213,15 +213,15 @@ img {
 }
 
 .section-wrapper:nth-child(odd) .section-heading {
-  color: #fff;
+  color: #C6DEFF;
 }
 
 .section-wrapper:nth-child(odd) .skills-subsection {
-  color: #fff;
+  color:#C6DEFF;
 }
 
 .section-wrapper:nth-child(odd) .paragraph-text {
-  color: #fff;
+  color: #C6DEFF;
 }
 
 .paragraph-text {
