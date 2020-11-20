@@ -1,45 +1,90 @@
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Container for flexboxes */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    /* Create four equal columns */
+    .column {
+      flex: 25%;
+      padding: 20px;
+    }
+    
+    /* On screens that are 992px wide or less, go from four columns to two columns */
+    @media screen and (max-width: 992px) {
+      .column {
+        flex: 50%;
+      }
+    }
+    
+    /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .row {
+        flex-direction: column;
+      }
+    }
+</style>
+
+
 <div class="section-wrapper">
     <section class="section about" id="about">
         <div id="about-text">
             <div class="section-heading">About Me</div>
 
             <p class="paragraph-text center-text">Actively seeking 2021 professional opportunities.</p>
+            
+            <div class="row">
+                <div class="column">
+                    <p class="paragraph-text justify-text">
+                        Background
+                        <ul class="paragraph-text justify-text">
+                            <li>Junior at Georgetown University</li>
+                            <li>From: Lincoln, NE</li>
+                            <li>Majors: Finance & Information Systems</li>
+                            <li>Minor: Computer Science</li>
+                            <li>Campus Activities: Georgetown Fintech, Club Tennis, DC Reads, Sigma Chi</li>
+                        </ul>
+                    </p>
+                </div>
 
-            <p class="paragraph-text justify-text">
-                Background
-                <ul class="paragraph-text justify-text">
-                    <li>Junior at Georgetown University</li>
-                    <li>From: Lincoln, NE</li>
-                    <li>Majors: Finance & Information Systems</li>
-                    <li>Minor: Computer Science</li>
-                    <li>Campus Activities: Georgetown Fintech, Club Tennis, DC Reads, Sigma Chi</li>
-                </ul>
-            </p>
+                <div class="column">
+                    <p class="paragraph-text justify-text">
+                        Currently Learning
+                        <ul class="paragraph-text justify-text">
+                            <li>SQL</li>
+                        </ul>
+                    </p>
+                </div>
 
-            <p class="paragraph-text justify-text">
-                Currently Learning
-                <ul class="paragraph-text justify-text">
-                    <li>SQL</li>
-                </ul>
-            </p>
+                <div class="column">
+                    <p class="paragraph-text justify-text">
+                        Interests
+                        <ul class="paragraph-text justify-text">
+                            <li>Data</li>
+                            <li>FinTech</li>
+                            <li>Machine Learning</li>
+                        </ul>
+                    </p>
+                </div>
 
-            <p class="paragraph-text justify-text">
-                Interests
-                <ul class="paragraph-text justify-text">
-                    <li>Data</li>
-                    <li>FinTech</li>
-                    <li>Machine Learning</li>
-                </ul>
-            </p>
+                <div class="column">
+                    <p class="paragraph-text justify-text">
+                        Hobbies
+                        <ul class="paragraph-text justify-text">
+                            <li>Tennis</li>
+                            <li>Escape Games</li>
+                            <li>Hiking</li>
+                        </ul>
+                    </p>
+                </div>
 
-            <p class="paragraph-text justify-text">
-                Hobbies
-                <ul class="paragraph-text justify-text">
-                    <li>Tennis</li>
-                    <li>Escape Games</li>
-                    <li>Hiking</li>
-                </ul>
-            </p>
+
+            </div>
             <!-- <p class="paragraph-text justify-text">
                 I maintain a little blog at <a href="{{ site.blog_url }}">nagekar.com</a> where I write about my recent interests and other activities. I post my software projects on <a href="https://github.com/{{ site.github_username }}">GitHub</a>. My email address can be found at the <span class="extra-link"><a href="#extra">bottom</a></span> of this page.
             </p> -->
