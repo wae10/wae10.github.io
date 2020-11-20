@@ -230,13 +230,20 @@ img {
   font-size: 1.3rem;
   margin: 30px auto;
   color: #404040;
-  text-align: center;
 }
 
 .paragraph-text-normal {
   font-family: 'PT Sans', sans-serif;
   color: #404040;
 }
+
+.center-text {
+  text-align: center;
+}
+
+/* .paragraph-text-small {
+
+} */
 
 
 .pt-sans-font {
