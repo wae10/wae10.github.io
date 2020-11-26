@@ -481,6 +481,7 @@ a {
 
 .bottom-link {
   margin: 0 5px;
+  vertical-align: middle;
 }
 
 .project-technologies {
