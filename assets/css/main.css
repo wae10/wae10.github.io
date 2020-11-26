@@ -91,8 +91,13 @@ img {
   font-size: 1.25rem;
 }
 
-.resume-center{
-  margin: 30px auto;
+.resume-home{
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #fff;
+  margin-top: auto;
+  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .head-buttons {
