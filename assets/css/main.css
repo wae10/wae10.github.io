@@ -95,7 +95,7 @@ img {
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   text-align: center;
   color: #fff;
-  vertical-align: middle;
+  position: relative;
   font-size: 20px;
   font-size: 1.25rem;
 }
