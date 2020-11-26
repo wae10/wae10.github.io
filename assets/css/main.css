@@ -447,6 +447,10 @@ a {
   color: #222;
 }
 
+.a white{
+  color: #fff;
+}
+
 .extra-links {
   display: -webkit-box;
   display: -ms-flexbox;
