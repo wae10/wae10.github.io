@@ -124,6 +124,12 @@ img {
   color: black;
 }
 
+.gtown-icon {
+  font-size: 32px;
+  font-size: 2rem;  
+  margin: 0 5px;
+}
+
 .head-buttons a {
   color: inherit;
 }
