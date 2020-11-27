@@ -39,8 +39,10 @@
 }
 
 .card__padding {
-    padding: 1.6rem;
-    padding-top: 0.8rem;
+	padding-top: 1.0rem;
+    padding-right: 1.0rem;
+    padding-bottom: 1.0rem;
+    padding-left: 1.6rem;
 }
  
 .card__image {
