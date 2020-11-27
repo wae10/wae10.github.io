@@ -117,12 +117,6 @@ img {
   color: white;
 }
 
-.black {
-  font-size: 32px;
-  font-size: 2rem;  
-  margin: 0 5px;
-  color: black;
-}
 
 .gtown-icon {
   /* background: url('../assets/images/gtown.png'); */
@@ -543,7 +537,7 @@ a {
 }
 
 .project-technology {
-  border: 1px solid #222;
+  border: 2px solid white;
   border-radius: 2px;
   margin: 0 5px;
   padding: 3px 5px;
