@@ -148,14 +148,14 @@ img {
 
 .skills-grid {
   display: -ms-grid;
-  /* display: grid; */
+  display: grid;
   -ms-grid-columns: 40% 60%;
       grid-template-columns: 40% 60%;
   grid-gap: 20px;
 }
 
 .technical-skills {
-  width: 40%;
+  width: 90%;
   margin: 0 auto;
   align-content: center;
 }
