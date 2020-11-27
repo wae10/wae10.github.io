@@ -407,7 +407,7 @@ li{
 }
 
 .project-tag-item {
-  background-color: #444;
+  /* background-color: #444; */
   border-radius: 3px;
   padding: 5px;
   color: #fff;
