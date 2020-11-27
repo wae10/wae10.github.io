@@ -43,7 +43,7 @@ let render_projects = (slug) => {
             title: 'Personal Finance Calculator',
             demo: '../assets/excel/Personal_Finance_Calculator.xlsm',
             technologies: ['VBA'],
-            description: "Determines annual financial savings based on several user inputs. Model implements various controls, error handling, and separation of interface to enhance user experience.",
+            description: "Determines annual financial savings based on several user inputs. Model implements various controls, error handling, and separation of interface.",
             categories: ['featured','all']
         },
         // {
