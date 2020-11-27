@@ -12,18 +12,18 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/images/golf.png',
-            link: 'https://github.com/wae10/Golf-Handicap',
+            link: 'https://golf-handicap-plf14.herokuapp.com/',
             title: 'Golf Handicap Calculator',
-            demo: 'https://golf-handicap-plf14.herokuapp.com/',
+            demo: 'https://github.com/wae10/Golf-Handicap',
             technologies: ['Flask', 'Sheets API', 'Python'],
             description: "Web-based application that allows users to post golf scores to a database and receive an updated USGA Handicap Index.",
             categories: ['featured']
         },
         {
             image: 'assets/images/recipe.png',
-            link: 'https://github.com/wae10/recipe-app',
+            link: 'https://myrecipe-master.herokuapp.com/',
             title: 'Recipe Master',
-            demo: 'https://myrecipe-master.herokuapp.com/',
+            demo: 'https://github.com/wae10/recipe-app',
             technologies: ['Flask', 'Spoonacular API', 'Python'],
             description: "Web-based application with clean interface that allows users the ability to search from over 365,000 recipes.",
             categories: ['featured']
@@ -32,7 +32,7 @@ let render_projects = (slug) => {
             image: 'assets/images/protip.png',
             link: 'https://github.com/wae10/pro-tip-generator',
             title: 'Pro-Tip Generator',
-            demo: false,
+            demo: 'https://github.com/wae10/pro-tip-generator',
             technologies: ['Python', 'Unix Shell'],
             description: "Automation tool that creates a separate Word Document containing only the most important information (aka 'pro tips') extracted from an existing file of notes.",
             categories: ['featured']
