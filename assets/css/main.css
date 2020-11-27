@@ -152,6 +152,7 @@ img {
   -ms-grid-columns: 40% 60%;
       grid-template-columns: 40% 60%;
   grid-gap: 20px;
+  align-content: center;
 }
 
 .technical-skills {
@@ -198,6 +199,15 @@ img {
 
 .section.skills > div {
   width: 100%;
+  max-width: 375px;
+  min-height: 100vh;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: 60px auto;
+  padding: 20px 0px;
 }
 
 .skills-subsection {
@@ -575,6 +585,7 @@ a {
         grid-template-columns: 100%;
     -ms-grid-rows: auto auto;
         grid-template-rows: auto auto;
+        align-content: center;
   }
 
   .set-size {
