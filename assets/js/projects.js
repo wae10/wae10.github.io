@@ -34,7 +34,7 @@ let render_projects = (slug) => {
             title: 'Pro-Tip Generator',
             demo: 'https://github.com/wae10/pro-tip-generator',
             technologies: ['Python', 'Unix Shell'],
-            description: "Automation tool that creates a separate Word Document containing only the most important information (aka 'pro tips') extracted from an existing file of notes.",
+            description: "Automation tool that creates a separate Word Document containing only the most important information ('pro tips') extracted from an existing file of notes.",
             categories: ['featured','all']
         },
         {
