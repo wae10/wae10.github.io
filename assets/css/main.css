@@ -544,7 +544,7 @@ a {
 }
 
 .project-technology {
-  border: 2px solid white;
+  border: 1px solid black;
   border-radius: 2px;
   margin: 0 5px;
   padding: 3px 5px;
