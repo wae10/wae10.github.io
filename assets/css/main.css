@@ -262,8 +262,8 @@ p.paragraph-text {
   margin: 30px auto;
   color: #fff;
   line-height: 40px;
-  text-align: justify;
   width: 350px;
+  text-align: center;
 }
 
 /* .extra-text{
