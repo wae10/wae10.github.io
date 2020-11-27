@@ -245,6 +245,15 @@ img {
   color: #404040;
 }
 
+.extra-text{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20.8px;
+  font-size: 1.3rem;
+  margin: 30px auto;
+  margin-top: 40px;
+  color: #404040;
+}
+
 .paragraph-text-normal {
   font-family: 'PT Sans', sans-serif;
   color: #404040;
