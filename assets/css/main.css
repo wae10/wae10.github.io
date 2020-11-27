@@ -237,6 +237,8 @@ img {
 .section-wrapper:nth-child(odd) .paragraph-text {
   color: #fff;
   margin: 65px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
 }
 
