@@ -188,11 +188,11 @@ let project_mapper = project => {
         
                         <p class="paragraph-text-normal">${project.description} ${project.demo ? `
                             <a href="${project.demo}">
-                                <b>
+                                <i><b>
                                     GitHub
-                                </b>
-                            </a>` : ''}<
-                        /p>
+                                </b><i/>
+                            </a>` : ''}
+                        </p>
                     </article>
 
                                 
