@@ -328,7 +328,7 @@ li{
   padding: 10px;
   -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
-  color: #D3D3D3;
+  color: #222;
 }
 
 .project-title {
@@ -498,7 +498,7 @@ a {
 }
 
 .project-technology {
-  border: 1px solid #222;
+  border: 1px solid #D3D3D3;
   border-radius: 2px;
   margin: 0 5px;
   padding: 3px 5px;
