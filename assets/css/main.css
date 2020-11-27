@@ -261,10 +261,10 @@ p.paragraph-text {
   font-size: 20.8px;
   font-size: 1.3rem;
   margin: 30px auto;
-  color: #404040;
+  color: #fff;
   line-height: 40px;
   text-align: justify;
-  width: 400px;
+  width: 350px;
 }
 
 /* .extra-text{
