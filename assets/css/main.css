@@ -235,6 +235,8 @@ img {
 
 .section-wrapper:nth-child(odd) .paragraph-text {
   color: #fff;
+  margin: 40px;
+  text-align: center;
 }
 
 .paragraph-text {
@@ -245,14 +247,14 @@ img {
   color: #404040;
 }
 
-.extra-text{
+/* .extra-text{
   font-family: 'PT Sans', sans-serif;
   font-size: 20.8px;
   font-size: 1.3rem;
   margin: 30px auto;
   margin-top: 40px;
   color: #404040;
-}
+} */
 
 .paragraph-text-normal {
   font-family: 'PT Sans', sans-serif;
