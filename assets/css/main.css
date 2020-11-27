@@ -129,7 +129,7 @@ img {
   /* background: url('../assets/images/gtown.png'); */
   height: 10px;
   width: 10px;
-  display: block;
+  display: inline-block;
 }
 
 .head-buttons a {
