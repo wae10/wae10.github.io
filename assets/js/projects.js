@@ -37,15 +37,15 @@ let render_projects = (slug) => {
             description: "Automation tool that creates a separate Word Document containing only the most important information (aka 'pro tips') extracted from an existing file of notes.",
             categories: ['featured']
         },
-        // {
-        //     image: 'assets/images/mpw.jpg',
-        //     link: 'https://github.com/abhn/mpw',
-        //     title: 'Master Password',
-        //     demo: 'https://www.nagekar.com/mpw',
-        //     technologies: ['Semantic UI', 'CSS3'],
-        //     description: "Master Password is an ingenious password solution that makes your passwords truly impossible to lose.",
-        //     categories: ['featured', 'security']
-        // },
+        {
+            image: 'assets/images/mpw.jpg',
+            link: '../assets/excel/Personal_Finance_Calculator.xlsm',
+            title: 'Personal Finance Calculator',
+            demo: '../assets/excel/Personal_Finance_Calculator.xlsm',
+            technologies: ['VBA'],
+            description: "Determines annual financial savings based on several user inputs. Model implements various controls, error handling, and separation of interface to enhance user experience.",
+            categories: ['featured']
+        },
         // {
         //     image: 'assets/images/social-share-count.jpeg',
         //     link: 'https://github.com/abhn/Social-Share-Counts',
@@ -186,7 +186,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}"><br><iclass="head-icon black fab fa-github"></i></br></a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}"><br><iclass="fab fa-github"></i></br></a>` : ''}</p>
                     </article>
 
                                 
