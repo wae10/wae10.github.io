@@ -89,6 +89,7 @@ img {
   margin-top: 10px;
   font-size: 20px;
   font-size: 1.25rem;
+  display: inline-block;
 }
 
 .resume-home{
@@ -126,8 +127,8 @@ img {
 
 .gtown-icon {
   /* background: url('../assets/images/gtown.png'); */
-  height: 5px;
-  width: 5px;
+  height: 10px;
+  width: 10px;
   display: block;
 }
 
