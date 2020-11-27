@@ -117,6 +117,13 @@ img {
   color: white;
 }
 
+.head-icon-black {
+  font-size: 32px;
+  font-size: 2rem;  
+  margin: 0 5px;
+  color: black;
+}
+
 .head-buttons a {
   color: inherit;
 }
