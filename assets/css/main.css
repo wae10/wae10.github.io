@@ -197,7 +197,7 @@ img {
 }
 
 .section.skills > div {
-  width: 325px;
+  width: 315px;
 }
 
 .skills-subsection {
@@ -529,8 +529,8 @@ a {
 @media screen and (max-width: 850px) {
 
   .section {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
