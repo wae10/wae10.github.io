@@ -119,6 +119,13 @@ img {
   color: white;
 }
 
+.head-icon-black {
+  font-size: 32px;
+  font-size: 2rem;  
+  margin: 0 5px;
+  color: black;
+}
+
 
 .gtown-icon {
   /* background: url('../assets/images/gtown.png'); */
