@@ -237,8 +237,6 @@ img {
 .section-wrapper:nth-child(odd) .paragraph-text {
   color: #fff;
   margin: 65px;
-  margin-left: 0px;
-  margin-right: 0px;
   text-align: center;
 }
 
@@ -248,6 +246,16 @@ img {
   font-size: 1.3rem;
   margin: 30px auto;
   color: #404040;
+}
+p.paragraph-text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20.8px;
+  font-size: 1.3rem;
+  margin: 30px auto;
+  color: #404040;
+  line-height: 40px;
+  text-align: justify;
+  width: 400px;
 }
 
 /* .extra-text{
