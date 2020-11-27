@@ -17,16 +17,16 @@ let render_projects = (slug) => {
             demo: 'https://github.com/wae10/Golf-Handicap',
             technologies: ['Flask', 'Sheets API', 'Python'],
             description: "Web-based application that allows users to post golf scores to a database and receive an updated USGA Handicap Index.",
-            categories: ['featured']
+            categories: ['featured','all']
         },
         {
             image: 'assets/images/recipe.png',
             link: 'https://myrecipe-master.herokuapp.com/',
             title: 'Recipe Master',
             demo: 'https://github.com/wae10/recipe-app',
-            technologies: ['Flask', 'Spoonacular API', 'Python'],
+            technologies: ['Flask', 'Python'],
             description: "Web-based application with clean interface that allows users the ability to search from over 365,000 recipes.",
-            categories: ['featured']
+            categories: ['featured','all']
         },
         {
             image: 'assets/images/protip.png',
@@ -35,7 +35,7 @@ let render_projects = (slug) => {
             demo: 'https://github.com/wae10/pro-tip-generator',
             technologies: ['Python', 'Unix Shell'],
             description: "Automation tool that creates a separate Word Document containing only the most important information (aka 'pro tips') extracted from an existing file of notes.",
-            categories: ['featured']
+            categories: ['featured','all']
         },
         {
             image: 'assets/images/finance_calc.png',
@@ -44,7 +44,7 @@ let render_projects = (slug) => {
             demo: '../assets/excel/Personal_Finance_Calculator.xlsm',
             technologies: ['VBA'],
             description: "Determines annual financial savings based on several user inputs. Model implements various controls, error handling, and separation of interface to enhance user experience.",
-            categories: ['featured']
+            categories: ['featured','all']
         },
         // {
         //     image: 'assets/images/social-share-count.jpeg',
@@ -160,9 +160,9 @@ let render_projects = (slug) => {
     if(slug == 'featured') {
         projects = projects_obj.map(project_mapper);
     } 
-//     else {
-//         projects = projects_obj.filter(project => project.categories.includes(slug)).map(project_mapper);
-//     }
+    else {
+        projects = projects_obj.filter(project => project.categories.includes(slug)).map(project_mapper);
+    }
     projects_area.hide().html(projects).fadeIn();
 }
 
