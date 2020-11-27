@@ -92,7 +92,12 @@ img {
 }
 
 .resume-home{
-  margin-top: 7px;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 20px;
+  font-size: 1.25rem;
 
 }
 
