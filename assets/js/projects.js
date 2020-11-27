@@ -38,7 +38,7 @@ let render_projects = (slug) => {
             categories: ['featured']
         },
         {
-            image: 'assets/images/mpw.jpg',
+            image: 'assets/images/finance_calc.png',
             link: '../assets/excel/Personal_Finance_Calculator.xlsm',
             title: 'Personal Finance Calculator',
             demo: '../assets/excel/Personal_Finance_Calculator.xlsm',
