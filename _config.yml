@@ -18,4 +18,4 @@ insta_username: everettwill
 profile_picture: 
 
 # Google Analytics ID
-google_analytics: 
+google_analytics: os.environ.get("GOOGLE_ID")
