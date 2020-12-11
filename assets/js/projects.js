@@ -41,11 +41,22 @@ let render_projects = (slug) => {
             image: 'assets/images/finance_calc.png',
             link: '../assets/excel/Personal_Finance_Calculator.xlsm',
             title: 'Personal Finance Calculator',
-            demo: '../assets/excel/Personal_Finance_Calculator.xlsm',
+            demo: false,
             technologies: ['VBA'],
             description: "Determines annual financial savings based on several user inputs. Model implements various controls, error handling, and separation of interface.",
             categories: ['featured','all']
         },
+
+        {
+            image: 'assets/images/storm.png',
+            link: '../assets/excel/storm_funding_assessment.xlsm',
+            title: 'Storm Damage Funding Calc',
+            demo: false,
+            technologies: ['VBA'],
+            description: "Assesses whether funding distribution for storm damage is fair across state levels in both commercial and residential departments. Model features include various controls, file processing, data validation, and visuals.",
+            categories: ['featured','all']
+        },
+
         // {
         //     image: 'assets/images/social-share-count.jpeg',
         //     link: 'https://github.com/abhn/Social-Share-Counts',
