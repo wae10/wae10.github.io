@@ -49,11 +49,11 @@ let render_projects = (slug) => {
 
         {
             image: 'assets/images/storm.png',
-            link: '../assets/excel/storm_funding_assessment.xlsm',
+            link: ['../assets/excel/storm_funding_assessment.xlsm', '../assets/excel/example_storm_data_residential.xlsm'],
             title: 'Storm Damage Funding Calc',
             demo: false,
             technologies: ['VBA'],
-            description: "Assesses whether funding distribution for storm damage is fair across state levels in both commercial and residential departments. Model features include various controls, file processing, data validation, and visuals.",
+            description: "Assesses whether funding distribution for storm damage is fair across state levels in both commercial and residential departments. Model features include various controls, file processing, data validation, and visualization of results.",
             categories: ['featured','all']
         },
 
