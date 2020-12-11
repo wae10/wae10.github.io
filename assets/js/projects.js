@@ -49,7 +49,7 @@ let render_projects = (slug) => {
 
         {
             image: 'assets/images/storm.png',
-            link: ['../assets/excel/storm_funding_assessment.xlsm', '../assets/excel/example_storm_data_residential.xlsm'],
+            link: '../assets/excel/storm',
             title: 'Storm Damage Funding Calc',
             demo: false,
             technologies: ['VBA'],
