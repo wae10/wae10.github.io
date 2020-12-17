@@ -57,15 +57,15 @@ let render_projects = (slug) => {
             categories: ['featured','all']
         },
 
-        // {
-        //     image: 'assets/images/social-share-count.jpeg',
-        //     link: 'https://github.com/abhn/Social-Share-Counts',
-        //     title: 'Social Share Count',
-        //     demo: false,
-        //     technologies: ['Python'],
-        //     description: "Ever wondered how many times a URL has been shared on popular social networks?",
-        //     categories: ['native']
-        // },
+        {
+            image: 'assets/images/credit.png',
+            link: '../assets/excel/credit.zip',
+            title: 'Credit Approval System',
+            demo: false,
+            technologies: ['VBA, Pivot Tables'],
+            description: "Decision system that analyzes risk of customers or payment data to ultimately provide a recommendation for whether or not to lend credit. Also calculates individual credit score. Supports decision with sensitivity analysis and dynamic visuals.",
+            categories: ['featured','all']
+        },
         // {
         //     image: 'assets/images/data-destroyer.png',
         //     link: 'https://github.com/abhn/data-destroyer-gui',
