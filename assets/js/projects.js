@@ -11,6 +11,26 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: 'assets/images/ef.png',
+            link: 'https://github.com/wae10/optimal-portfolio',
+            title: 'Optimal Portfolio Solver',
+            demo: 'https://github.com/wae10/optimal-portfolio',
+            technologies: ['Python', 'Pandas','Matplotlib'],
+            description: "Determines optimal portfolio of stocks to maximize sharpe ratio.",
+            categories: ['featured','all']
+        },
+
+        {
+            image: 'assets/images/credit.png',
+            link: '../assets/excel/credit.zip',
+            title: 'Credit Approval System',
+            demo: false,
+            technologies: ['VBA, Pivot Tables'],
+            description: "Decision system that analyzes risk of customers or payment data to ultimately provide a recommendation for whether or not to lend credit. Also calculates individual credit score. Supports decision with sensitivity analysis and dynamic visuals.",
+            categories: ['featured','all']
+        },
+
+        {
             image: 'assets/images/golf.png',
             link: 'https://golf-handicap-plf14.herokuapp.com/',
             title: 'Golf Handicap Calculator',
@@ -19,6 +39,7 @@ let render_projects = (slug) => {
             description: "Web-based application that allows users to post golf scores to a database and receive an updated USGA Handicap Index.",
             categories: ['featured','all']
         },
+        
         {
             image: 'assets/images/recipe.png',
             link: 'https://myrecipe-master.herokuapp.com/',
@@ -57,24 +78,8 @@ let render_projects = (slug) => {
             categories: ['featured','all']
         },
 
-        {
-            image: 'assets/images/credit.png',
-            link: '../assets/excel/credit.zip',
-            title: 'Credit Approval System',
-            demo: false,
-            technologies: ['VBA, Pivot Tables'],
-            description: "Decision system that analyzes risk of customers or payment data to ultimately provide a recommendation for whether or not to lend credit. Also calculates individual credit score. Supports decision with sensitivity analysis and dynamic visuals.",
-            categories: ['featured','all']
-        },
-        {
-            image: 'assets/images/ef.png',
-            link: 'https://github.com/wae10/optimal-portfolio',
-            title: 'Optimal Portfolio Solver',
-            demo: 'https://github.com/wae10/optimal-portfolio',
-            technologies: ['Python', 'Pandas','Matplotlib'],
-            description: "Determines optimal portfolio of stocks to maximize sharpe ratio.",
-            categories: ['featured','all']
-        },
+
+
         // {
         //     image: 'assets/images/raspberry-pi-monitor.png',
         //     link: 'https://github.com/abhn/RPi-Status-Monitor',
