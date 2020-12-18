@@ -66,15 +66,15 @@ let render_projects = (slug) => {
             description: "Decision system that analyzes risk of customers or payment data to ultimately provide a recommendation for whether or not to lend credit. Also calculates individual credit score. Supports decision with sensitivity analysis and dynamic visuals.",
             categories: ['featured','all']
         },
-        // {
-        //     image: 'assets/images/data-destroyer.png',
-        //     link: 'https://github.com/abhn/data-destroyer-gui',
-        //     title: 'Data Destroyer',
-        //     demo: false,
-        //     technologies: ['C++', 'Qt'],
-        //     description: "Native GUI wrapper for GNU coreutils tool 'dd'",
-        //     categories: ['native']
-        // },
+        {
+            image: 'assets/images/ef.png',
+            link: 'https://github.com/wae10/optimal-portfolio',
+            title: 'Optimal Portfolio Solver',
+            demo: 'https://github.com/wae10/optimal-portfolio',
+            technologies: ['Python', 'Pandas','Matplotlib'],
+            description: "Determines optimal portfolio of stocks to maximize sharpe ratio.",
+            categories: ['featured','all']
+        },
         // {
         //     image: 'assets/images/raspberry-pi-monitor.png',
         //     link: 'https://github.com/abhn/RPi-Status-Monitor',
