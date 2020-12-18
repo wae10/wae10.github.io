@@ -25,7 +25,7 @@ let render_projects = (slug) => {
             link: '../assets/excel/credit.zip',
             title: 'Credit Approval System',
             demo: false,
-            technologies: ['VBA, Pivot Tables'],
+            technologies: ['VBA', 'Pivot Tables'],
             description: "Decision system that analyzes risk of customers or payment data to ultimately provide a recommendation for whether or not to lend credit. Also calculates individual credit score. Supports decision with sensitivity analysis and dynamic visuals.",
             categories: ['featured','all']
         },
@@ -39,7 +39,7 @@ let render_projects = (slug) => {
             description: "Web-based application that allows users to post golf scores to a database and receive an updated USGA Handicap Index.",
             categories: ['featured','all']
         },
-        
+
         {
             image: 'assets/images/recipe.png',
             link: 'https://myrecipe-master.herokuapp.com/',
