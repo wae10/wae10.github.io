@@ -16,7 +16,7 @@ let render_projects = (slug) => {
             title: 'Optimal Portfolio Solver',
             demo: 'https://github.com/wae10/optimal-portfolio',
             technologies: ['Python', 'Pandas','Matplotlib'],
-            description: "Determines optimal portfolio of stocks to maximize sharpe ratio.",
+            description: "Determines optimal portfolio of stocks to maximize sharpe ratio. Utilizes Matplotlib module to display visuals. Incorporates real-time financial data.",
             categories: ['featured','all']
         },
 
