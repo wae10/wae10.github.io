@@ -12,7 +12,7 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/images/ef.png',
-            link: 'https://github.com/wae10/optimal-portfolio',
+            link: 'https://my-optimal-portfolio.herokuapp.com/',
             title: 'Optimal Portfolio Solver',
             demo: 'https://github.com/wae10/optimal-portfolio',
             technologies: ['Python', 'Pandas','Matplotlib'],
