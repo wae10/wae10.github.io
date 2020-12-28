@@ -549,7 +549,7 @@ a {
 
   /* margin-bottom: 20px; */
 
-  margin: 20px auto;
+  margin: 30px auto;
   /* margin-left: 48px;
   margin-right: 48px; */
   /* padding-left: 48px;
@@ -560,7 +560,7 @@ a {
   /* align-self: center; */
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   /* font-weight: bold; */
-  color:#C6DEFF;
+  background-color:#C6DEFF;
 
 }
 
