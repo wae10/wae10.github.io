@@ -533,6 +533,7 @@ a {
 
 .project-technologies {
   /* bottom: 40px; */
+  position:relative;
   left: 50%; 
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
