@@ -532,20 +532,17 @@ a {
 }
 
 .project-technologies {
-  position: relative;
-  bottom: 40px;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-
   display: -ms-grid;
-
   display: grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
-  grid-column-gap: 10px;
-  
-  margin: 0 auto;
+  -ms-grid-columns: (minmax(120px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  margin: 20px 0;
+  grid-gap: 5px;
+  grid-row-gap: 10px;
+  width: 100%;
+  align-self: center;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .project-technology {
