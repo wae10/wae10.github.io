@@ -533,9 +533,9 @@ a {
 
 .project-technologies {
   /* bottom: 40px; */
-  /* left: 50%; */
+  left: 50%; */
   /* -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0); */
+          transform: translate(-50%, 0);
   display: -ms-grid;
   
   display: grid;
