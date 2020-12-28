@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    render_projects('featured', 'all');
+    render_projects('featured', 'all', 'vba', 'python');
 })
 
 
@@ -17,7 +17,7 @@ let render_projects = (slug) => {
             demo: 'https://github.com/wae10/optimal-portfolio',
             technologies: ['Python', 'Pandas','Matplotlib'],
             description: "Determines optimal portfolio of stocks by maximizing sharpe ratio. Utilizes Matplotlib module to display visuals. Incorporates real-time financial data.",
-            categories: ['featured','all']
+            categories: ['featured','all', 'python']
         },
 
         {
@@ -27,7 +27,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['VBA', 'Pivot Tables'],
             description: "Decision system that analyzes risk of customers or payment data to ultimately provide a recommendation for whether or not to lend credit. Also calculates individual credit score. Supports decision with sensitivity analysis and dynamic visuals.",
-            categories: ['featured','all']
+            categories: ['featured','all', 'vba']
         },
 
         {
@@ -37,7 +37,7 @@ let render_projects = (slug) => {
             demo: 'https://github.com/wae10/Golf-Handicap',
             technologies: ['Flask', 'Sheets API', 'Python'],
             description: "Web-based application that allows users to post golf scores to a database and receive an updated USGA Handicap Index.",
-            categories: ['featured','all']
+            categories: ['featured','all', 'python']
         },
 
         {
@@ -47,7 +47,7 @@ let render_projects = (slug) => {
             demo: 'https://github.com/wae10/recipe-app',
             technologies: ['Flask', 'Python'],
             description: "Web-based application with clean interface that allows users the ability to search from over 365,000 recipes.",
-            categories: ['featured','all']
+            categories: ['all', 'python']
         },
         {
             image: 'assets/images/protip.png',
@@ -56,7 +56,7 @@ let render_projects = (slug) => {
             demo: 'https://github.com/wae10/pro-tip-generator',
             technologies: ['Python', 'Unix Shell'],
             description: "Automation tool that creates a separate Word Document containing only the most important information ('pro tips') extracted from an existing file of notes.",
-            categories: ['featured','all']
+            categories: ['all', 'python']
         },
         {
             image: 'assets/images/finance_calc.png',
@@ -65,7 +65,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['VBA'],
             description: "Determines annual financial savings based on several user inputs. Model implements various controls, error handling, and separation of interface.",
-            categories: ['featured','all']
+            categories: ['all', 'vba']
         },
 
         {
@@ -75,7 +75,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['VBA'],
             description: "Assesses whether funding distribution for storm damage is fair across state levels in both commercial and residential departments. Model features include various controls, file processing, data validation, and visualization of results.",
-            categories: ['featured','all']
+            categories: ['all', 'vba']
         },
 
 
@@ -173,7 +173,7 @@ let render_projects = (slug) => {
     ]
 
     let projects = [];
-    if(slug == 'featured') {
+    if(slug == 'all') {
         projects = projects_obj.map(project_mapper);
     } 
     else {
