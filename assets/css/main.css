@@ -151,7 +151,6 @@ img {
   grid-column-gap: 10px;
   
   margin: 0 auto;
-  color:#C6DEFF;
 }
 
 .justify-text {
@@ -555,10 +554,12 @@ a {
   /* align-self: center; */
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-weight: bold;
+  color:#C6DEFF;
+
 }
 
 .project-technology {
-  /* border: 1px solid black; */
+  border: 1px solid black;
   border-radius: 2px;
   margin: 0 5px;
   padding: 3px 5px;
