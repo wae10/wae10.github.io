@@ -532,8 +532,10 @@ a {
 }
 
 .project-technologies {
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
   display: -ms-grid;
-  display: grid;
+  /* display: grid; */
   -ms-grid-columns: (minmax(120px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   margin: 20px 0;
