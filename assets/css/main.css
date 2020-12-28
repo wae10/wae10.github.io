@@ -596,6 +596,8 @@ a {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-bottom: 20px;
     /* margin: 20px auto; */
   }
