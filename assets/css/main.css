@@ -547,9 +547,9 @@ a {
       grid-template-columns: auto auto auto auto;
   grid-column-gap: 10px;
 
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 
-  /* margin: 20px 0; */
+  margin: 20px auto;
   /* margin-left: 48px;
   margin-right: 48px; */
   /* padding-left: 48px;
@@ -593,14 +593,14 @@ a {
   .project-technologies {
     -ms-grid-columns: auto auto auto;
         grid-template-columns: auto auto auto;
-    /* width: -webkit-fit-content;
+    width: -webkit-fit-content;
     width: -moz-fit-content;
-    width: fit-content; */
-    width: 80px;
+    width: fit-content;
+    /* width: 80px; */
     /* padding-left: 30px;
     padding-right: 30px; */
-    margin-bottom: 20px;
-    /* margin: 20px auto; */
+    /* margin-bottom: 20px; */
+    margin: 20px auto;
   }
 }
 
