@@ -541,6 +541,8 @@ a {
   grid-row-gap: 10px;
   width: 100%;
   align-self: center;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .project-technology {
