@@ -551,7 +551,7 @@ a {
   grid-row-gap: 10px;
   /* width: 100%; */
   margin: 0 auto;
-  /* align-self: center; */
+  align-self: center;
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
