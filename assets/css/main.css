@@ -547,10 +547,10 @@ a {
       grid-template-columns: auto auto auto auto;
   grid-column-gap: 10px;
 
-  /* margin: 20px 0; */
+  margin: 20px 0;
   grid-row-gap: 10px;
   /* width: 100%; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* align-self: center; */
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-weight: bold;
