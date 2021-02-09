@@ -532,35 +532,20 @@ a {
 }
 
 .project-technologies {
-  /* bottom: 40px; */
-  position:relative;
-  left: 50%; 
+
+  position: relative;
+  margin: 30px auto;
+  left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
-  display: -ms-grid;
-  
-  display: grid;
-  /* -ms-grid-columns: (minmax(120px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); */
 
-    -ms-grid-columns: auto auto auto auto;
+  display: -ms-grid;
+
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
   grid-column-gap: 10px;
-
-  /* margin-bottom: 20px; */
-
-  margin: 30px auto;
-  /* margin-left: 48px;
-  margin-right: 48px; */
-  /* padding-left: 48px;
-  padding-right: 48px; */
-  grid-row-gap: 10px;
-  /* width: 100%; */
-  /* margin: 0 auto; */
-  /* align-self: center; */
-  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
-  /* font-weight: bold; */
-
+  
 }
 
 .project-technology {
