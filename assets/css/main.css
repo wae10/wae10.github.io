@@ -575,16 +575,11 @@ a {
 
 @media screen and (max-width: 775px) {
   .project-technologies {
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    /* width: 80px; */
-    /* padding-left: 30px;
-    padding-right: 30px; */
-    /* margin-bottom: 20px; */
-    margin: 20px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    -webkit-box-pack: center;
+    justify-content: center;
   }
 }
 
