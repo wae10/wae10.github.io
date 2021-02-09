@@ -613,6 +613,14 @@ a {
     width: 80%;
   }
 
+  .project-technologies {
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 80%;
+  }
+
   #nav {
     background-attachment: unset;
   }
@@ -673,6 +681,14 @@ a {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
   }
+
+  .project-technologies {
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
 }
 
 @media screen and (max-height: 525px) {
@@ -682,6 +698,10 @@ a {
   }
 
   .head-menu-wrap {
+    bottom: 15px;
+  }
+
+  .project-technologies {
     bottom: 15px;
   }
 }
