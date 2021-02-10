@@ -572,7 +572,7 @@ a {
   margin-right: 0px;
 }
 
-.skills-width {
+.skills-length {
   width: 80%;
 }
 
@@ -677,7 +677,7 @@ a {
     display:block;
     /* flex-wrap: nowrap; */
   }
-  .skills-width {
+  .skills-length {
     width: 100%;
   }
 
@@ -708,7 +708,7 @@ a {
     display:block;
     /* flex-wrap: nowrap; */
   }
-  .skills-width {
+  .skills-length {
     width: 100%;
   }
 
@@ -739,7 +739,7 @@ a {
     display:block;
     /* flex-wrap: nowrap; */
   }
-  .skills-width {
+  .skills-length {
     width: 100%;
   }
 
