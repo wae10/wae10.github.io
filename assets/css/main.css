@@ -572,7 +572,7 @@ a {
   margin-right: 0px;
 }
 
-.skills-length {
+.length {
   width: 80%;
 }
 
@@ -593,6 +593,9 @@ a {
     display: grid;
     -webkit-box-pack: center;
     justify-content: center;
+  }
+  .length {
+    width: 100%;
   }
 }
 
@@ -659,6 +662,9 @@ a {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .length {
+    width: 100%;
+  }
 
 }
 
@@ -677,7 +683,7 @@ a {
     display:block;
     /* flex-wrap: nowrap; */
   }
-  .skills-length {
+  .length {
     width: 100%;
   }
 
@@ -708,7 +714,7 @@ a {
     display:block;
     /* flex-wrap: nowrap; */
   }
-  .skills-length {
+  .length {
     width: 100%;
   }
 
@@ -739,7 +745,7 @@ a {
     display:block;
     /* flex-wrap: nowrap; */
   }
-  .skills-length {
+  .length {
     width: 100%;
   }
 
