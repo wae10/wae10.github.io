@@ -168,6 +168,7 @@ img {
   padding: 20px;
 }
 
+
 .skills-grid {
   display: -ms-grid;
   /* display: grid; */
@@ -660,6 +661,18 @@ a {
   .head {
     min-height: 525px;
   }
+
+  .rows {
+    flex: none;
+    padding: 0;
+  }
+
+  .progress-bars {
+    margin-top: 30px;
+    display:inline-block;
+    flex-wrap: nowrap;
+  }
+
 }
 
 @media screen and (max-width: 400px) {
