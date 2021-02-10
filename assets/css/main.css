@@ -690,6 +690,17 @@ a {
     grid-row-gap: 10px;
   }
 
+  .rows {
+    flex: none;
+    padding: 0;
+  }
+
+  .progress-bars {
+    margin-top: 30px;
+    display:inline-block;
+    flex-wrap: nowrap;
+  }
+
 }
 
 @media screen and (max-height: 525px) {
@@ -705,6 +716,19 @@ a {
   .project-technologies {
     bottom: 15px;
   }
+
+
+  .rows {
+    flex: none;
+    padding: 0;
+  }
+
+  .progress-bars {
+    margin-top: 30px;
+    display:inline-block;
+    flex-wrap: nowrap;
+  }
+
 }
 
 br{
