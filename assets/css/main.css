@@ -670,7 +670,7 @@ a {
   .progress-bars {
     margin-top: 30px;
     display:inline-block;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
   }
 
 }
@@ -698,7 +698,7 @@ a {
   .progress-bars {
     margin-top: 30px;
     display:inline-block;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
   }
 
 }
@@ -726,7 +726,7 @@ a {
   .progress-bars {
     margin-top: 30px;
     display:inline-block;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
   }
 
 }
