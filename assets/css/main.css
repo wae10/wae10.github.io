@@ -572,6 +572,10 @@ a {
   margin-right: 0px;
 }
 
+.skills-width {
+  width: 80%;
+}
+
 /* Here follow all the media queries */
 @media screen and (max-width: 850px) {
 
@@ -656,9 +660,6 @@ a {
             justify-content: center;
   }
 
-  .skills-width {
-    width: 80%;
-  }
 }
 
 @media screen and (max-height: 450px) and (max-width: 600px) {
