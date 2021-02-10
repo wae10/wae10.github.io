@@ -655,6 +655,10 @@ a {
         -ms-flex-pack: center;
             justify-content: center;
   }
+
+  .skills-width {
+    width: 80%;
+  }
 }
 
 @media screen and (max-height: 450px) and (max-width: 600px) {
@@ -671,6 +675,9 @@ a {
     margin-top: 30px;
     display:block;
     /* flex-wrap: nowrap; */
+  }
+  .skills-width {
+    width: 100%;
   }
 
 }
@@ -700,6 +707,9 @@ a {
     display:block;
     /* flex-wrap: nowrap; */
   }
+  .skills-width {
+    width: 100%;
+  }
 
 }
 
@@ -727,6 +737,9 @@ a {
     margin-top: 30px;
     display:block;
     /* flex-wrap: nowrap; */
+  }
+  .skills-width {
+    width: 100%;
   }
 
 }
