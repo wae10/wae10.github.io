@@ -159,6 +159,13 @@ img {
 
 .progress-bars {
   margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rows {
+  flex: 50%;
+  padding: 20px;
 }
 
 .skills-grid {
