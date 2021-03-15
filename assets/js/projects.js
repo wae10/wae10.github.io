@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             image: 'assets/images/nba.png',
             link: 'https://public.tableau.com/profile/william.everett2026#!/vizhome/DoesWinningintheNBAMatter/NBADashboard?publish=yes',
             title: 'Does Winning Matter in the NBA?',
-            demo: 'https://github.com/wae10/optimal-portfolio',
+            demo: false,
             technologies: ['Tableau', 'Data Visualization','ETL'],
             description: "Interactive dashboard that allows the user to investigate the question posed in the title. Combined 9 datasets using ETL processes.",
             categories: ['featured','all', 'tableau']
