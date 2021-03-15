@@ -553,6 +553,7 @@ a {
   -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
   grid-column-gap: 10px;
+  grid-row-gap: 15px;
   
 }
 
