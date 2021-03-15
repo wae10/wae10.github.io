@@ -16,7 +16,7 @@ let render_projects = (slug) => {
             link: 'https://public.tableau.com/profile/william.everett2026#!/vizhome/DoesWinningintheNBAMatter/NBADashboard?publish=yes',
             title: 'Does Winning Matter in the NBA?',
             demo: false,
-            technologies: ['Tableau', 'Data Visualization','ETL'],
+            technologies: ['Tableau', 'Data Viz','ETL'],
             description: "Interactive dashboard that allows the user to investigate the question posed in the title. Combined 9 datasets using ETL processes.",
             categories: ['featured','all', 'tableau']
         },
