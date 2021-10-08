@@ -1,1 +1,1 @@
-# http://www.weverett.com/
+# https://weverett.com/
