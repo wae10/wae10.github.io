@@ -12,6 +12,18 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
 
+            image: 'assets/images/reviews.png',
+            link: 'https://github.com/wae10/TripAdvisor-scraper/tree/master',
+            title: 'TripAdvisor Reviews Scraper',
+            demo: false,
+            technologies: ['Web-Scraping', 'Python'],
+            description: "Unix executable that runs every day and collects TripAdvisor review data for all 20+ The Escape Game locations.",
+            categories: ['featured','all', 'python']
+        },
+
+        
+        {
+
             image: 'assets/images/nba.png',
             link: 'https://public.tableau.com/profile/william.everett2026#!/vizhome/DoesWinningintheNBAMatter/NBADashboard?publish=yes',
             title: 'Does Winning Matter in the NBA?',
