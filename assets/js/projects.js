@@ -67,7 +67,7 @@ let render_projects = (slug) => {
             image: 'assets/images/recipe.png',
             link: 'https://myrecipe-master.herokuapp.com/',
             title: 'Recipe Master',
-            demo: 'https://github.com/wae10/recipe-app',
+            demo: 'https://github.com/wae10/recipe',
             technologies: ['Flask', 'Python'],
             description: "Web-based application with clean interface that allows users the ability to search from over 365,000 recipes.",
             categories: ['all', 'python']
