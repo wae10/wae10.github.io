@@ -13,9 +13,9 @@ let render_projects = (slug) => {
         {
 
             image: 'assets/images/reviews.png',
-            link: 'https://github.com/wae10/TripAdvisor-scraper/tree/master',
+            link: 'https://github.com/wae10/TripAdvisor-scraper',
             title: 'TripAdvisor Reviews Scraper',
-            demo: false,
+            demo: 'https://github.com/wae10/TripAdvisor-scraper',
             technologies: ['Web-Scraping', 'Python'],
             description: "Unix executable that runs every day and collects TripAdvisor review data for all 20+ The Escape Game locations.",
             categories: ['featured','all', 'python']
@@ -51,6 +51,15 @@ let render_projects = (slug) => {
             technologies: ['VBA', 'Pivot Tables'],
             description: "Decision system that analyzes risk of customers or payment data to ultimately provide a recommendation for whether or not to lend credit. Also calculates individual credit score. Supports decision with sensitivity analysis and dynamic visuals.",
             categories: ['featured','all', 'vba']
+        },
+        {
+            image: 'assets/images/stars-scraper.png',
+            link: 'https://github.com/wae10/aashe-stars-webscraper',
+            title: 'AASHE STARS Scraper',
+            demo: 'https://github.com/wae10/aashe-stars-webscraper',
+            technologies: ['Web-Scraping', 'Python'],
+            description: "Webscraper that compiles various information on hundreds of potential clients for a sustainability startup called Breeze Box LLC.",
+            categories: ['featured','all', 'Python']
         },
 
         {
